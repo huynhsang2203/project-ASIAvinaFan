@@ -14,8 +14,16 @@ function asiavinafans_theme_setup(){
 	//Chuyển về trình soạn thảo phiên bản cũ
 	add_filter('use_block_editor_for_post', '__return_false');
 
-	// Tự động thêm tiêu đề cho mỗi trang
+	//Tự động thêm title cho mỗi trang
 	add_theme_support( 'title-tag' );
+
+	//Đăng kí widgets
+	if (function_exists('register_sidebar')){
+		register_sidebar(array(
+			'name'=> 'search',
+			'id' => 'search',
+		));
+	}
 }
 add_action( 'init', 'asiavinafans_theme_setup' );
 

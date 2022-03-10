@@ -1,0 +1,22 @@
+2022-03-10T16:04:32+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 34
+
+2022-03-10T16:04:33+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 34
+
+2022-03-10T16:10:53+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 22
+
+2022-03-10T16:11:10+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 22
+
+2022-03-10T16:11:23+00:00 CRITICAL syntax error, unexpected '"id"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 24
+
+2022-03-10T16:11:25+00:00 CRITICAL syntax error, unexpected '"id"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 24
+
+2022-03-10T16:11:56+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 22
+
+2022-03-10T16:11:57+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 22
+
+2022-03-10T16:12:02+00:00 CRITICAL syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 24
+
+2022-03-10T16:12:10+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 22
+
+2022-03-10T16:12:16+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\project-ASIAvinaFans\wp-content\themes\ASIAvinaFans\functions.php on line 26
+
