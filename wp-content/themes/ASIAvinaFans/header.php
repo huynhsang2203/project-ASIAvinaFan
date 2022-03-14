@@ -3,31 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/assets/css/header.css" >
+  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/style.css" >
+  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/template-part/css/quality-verification.css">
+
   <?php wp_head() ?>
+
 </head>
 <body <?php body_class(); ?>>
   <header>
+
+    <!-- Menu ở header -->
     <?php 
     wp_nav_menu( array(
-      'theme_location'  => '',
-      'menu'            => 'menu-header',
-      'container'       => 'div',
-      'container_class' => 'menu-{menu-slug}-container',
-      'container_id'    => '',
-      'menu_class'      => 'menu',
-      'menu_id'         => '',
-      'echo'            => true,
-      'fallback_cb'     => 'wp_page_menu',
-      'before'          => '',
-      'after'           => '',
-      'link_before'     => '',
-      'link_after'      => '',
-      'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
-      'depth'           => 0,
-      'walker'          => '',
+      'theme_location'  => 'menu-header',
+      'container'       => 'false',
+      'menu_class'      => 'menu-header',
     ) );
     ?>
-    <?php echo do_shortcode('[gtranslate]'); ?>
-    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('search') ) : ?><?php endif; ?>
+
+
+
+    <!-- Chúc năng chọn ngôn ngữ dịch -->
+    <div class="gtranslate">
+      <?php echo do_shortcode('[gtranslate]'); ?>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-box">
+      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('search') ) : ?><?php endif; ?>
+    </div>
+
+    <!-- Logo header -->
+    <div class="logo-header">
+      <img src="http://localhost/project-ASIAvinaFans/wp-content/uploads/2022/03/Logo-01-1.png" alt="logo">
+    </div>
+
   </header>

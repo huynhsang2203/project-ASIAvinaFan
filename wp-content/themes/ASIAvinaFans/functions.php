@@ -19,10 +19,19 @@ function asiavinafans_theme_setup(){
 
 	//Đăng kí widgets
 	if (function_exists('register_sidebar')){
-		register_sidebar(array(
-			'name'=> 'search',
-			'id' => 'search',
-		));
+		/**
+		 * Creates a sidebar
+		 * @param string|array  Builds Sidebar based off of 'name' and 'id' values.
+		 */
+		$args = array(
+			'name'          => __( 'search', 'asiavinafans' ),
+			'id'            => 'search',
+			'description'   => 'search box',
+			'class'         => 'search-box',
+		);
+		
+		register_sidebar( $args );
+
 	}
 }
 add_action( 'init', 'asiavinafans_theme_setup' );
