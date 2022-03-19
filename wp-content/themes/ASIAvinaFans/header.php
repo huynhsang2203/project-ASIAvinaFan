@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/assets/css/header.css" >
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/style.css" >
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/template-part/css/quality-verification.css">
+  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/template-part/css/san-pham-noi-bat.css">
 
   <?php wp_head() ?>
 
