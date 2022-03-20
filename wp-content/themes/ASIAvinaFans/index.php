@@ -20,9 +20,8 @@ Template Name: Home
 </div>
 
 <!-- form ĐĂNG KÝ SẢN PHẨM -->
-<div class="form-contacts">
-    <?php get_template_part('template-part/form-contacts');?>
-</div>
+<?php get_template_part('template-part/form-contacts');?>
+
 
 
 <?php get_footer();?>

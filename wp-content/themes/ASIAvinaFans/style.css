@@ -10,13 +10,28 @@ Author URI: https://www.facebook.com/huynh.sang.7374/
 Theme URI: http://localhost/project-ASIAvinaFans 
 */
 
-
-
 .slider {
-	/* Slider */
-	position: relative;
-	width: 1920px;
-	height: 939px;
-	left: 0px;
-	margin-top: 0px;
+    /* Slider */
+    position: relative;
+    width: 1920px;
+    height: 939px;
+    left: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    width: 857px;
+    height: 75px;
+    left: 532px;
+    top: 3090px;
+    /* Roboto / 64 Light */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    /* Bdazzled Blue / Default */
+    color: #315377;
 }
