@@ -3,7 +3,7 @@
 	$cat = 'san-pham';
 	$args = array( 
 		'post_type' => 'product',
-		'posts_per_page' => 10, 
+		'posts_per_page' => 6, 
 		'product_cat' => $cat,
 	); 
 ?>
@@ -19,4 +19,6 @@
 		<div class="price-product"><?php echo $product->get_price_html(); ?></div>
 	</div>
 <?php endwhile; wp_reset_postdata();?>
+
 </div>
+

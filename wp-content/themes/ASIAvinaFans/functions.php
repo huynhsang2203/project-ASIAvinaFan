@@ -33,6 +33,38 @@ function asiavinafans_theme_setup(){
 		register_sidebar( $args );
 
 	}
+	//Đăng kí widgets
+	if (function_exists('register_sidebar')){
+		/**
+		 * Creates a sidebar
+		 * @param string|array  Builds Sidebar based off of 'name' and 'id' values.
+		 */
+		$args = array(
+			'name'          => __( 'search', 'asiavinafans' ),
+			'id'            => 'search',
+			'description'   => 'search box',
+			'class'         => 'search-box',
+		);
+		
+		register_sidebar( $args );
+
+	}
+	if (function_exists('register_sidebar')){
+		/**
+		 * Creates a sidebar
+		 * @param string|array  Builds Sidebar based off of 'name' and 'id' values.
+		 */
+		$args = array(
+			'name'          => __( 'form', 'asiavinafans' ),
+			'id'            => 'form-contacts',
+			'description'   => 'form-contacts',
+			'class'         => 'form-contacts',
+		);
+		
+		register_sidebar( $args );
+
+	}
+	
 }
 add_action( 'init', 'asiavinafans_theme_setup' );
 

@@ -9,3 +9,4 @@
 		<img src="http://localhost/project-ASIAvinaFans/wp-content/uploads/2022/03/quality.svg" alt="quality">
 	</div>
 </div>
+
