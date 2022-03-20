@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/template-part/css/quality-verification.css">
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/template-part/css/san-pham-noi-bat.css">
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/assets/css/footer.css">
-  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/assets/css/form-contacts.css">
+  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' );?>/template-part/css/form-contacts.css">
   <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
 
   <!-- Add link boostrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
   <?php wp_head() ?>
 
