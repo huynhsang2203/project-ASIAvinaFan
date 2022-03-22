@@ -68,7 +68,7 @@ input {
 }
 
 h2 {
-    margin: 0 20px;
+    margin: 0 10px;
     /* Roboto / 64 Light */
     font-family: 'Roboto';
     font-style: normal;
@@ -82,13 +82,8 @@ h2 {
 }
 
 .text {
-    width: 700px;
+    width: 750px;
     margin: auto;
     display: flex;
-}
-
-.frame-left {
-    background-color: red;
-    left: 396px;
-    top: 140px;
+    height: 200px;
 }

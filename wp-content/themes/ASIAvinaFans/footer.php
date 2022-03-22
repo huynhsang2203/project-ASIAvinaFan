@@ -125,5 +125,5 @@
     </div>
 </footer>
 
-<script type="text/javacript" src="<?php bloginfo( 'stylesheet_directory' ) ?>/bootstrap/js/bootstrap.js"></script>
+<script type="text/javacript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap/bootstrap.js"></script>
 </body>

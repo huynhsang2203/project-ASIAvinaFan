@@ -11,6 +11,4 @@
     <div class="form-box">
         <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('form')):?><?php endif;?>
     </div>
-
-    
 </div>
