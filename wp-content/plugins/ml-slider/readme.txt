@@ -2,7 +2,7 @@
 Contributors: matchalabs, DavidAnderson, dnutbourne, kbat82
 Tags: slideshow, slider, image slider, carousel, gallery, flexslider, wordpress slider, nivoslider, rotating banner, responsive slideshow, seo slideshow, unsplash
 Requires at least: 3.5
-Stable tag: 3.27.2
+Stable tag: 3.27.3
 Requires PHP: 5.2
 Tested up to: 5.9
 License: GPLv2 or later
@@ -285,6 +285,9 @@ See https://www.metaslider.com/documentation/image-cropping/
 6. Integrates directly in Gutenberg
 
 == Changelog ==
+
+= 3.27.3 - 2022/Mar/21 =
+* Update Extendify library
 
 = 3.27.2 - 2022/Mar/08 =
 * Remove get_plugins early cache

@@ -23,6 +23,7 @@ export const GridView = memo(function GridView() {
     const templates = useTemplatesStore((state) => state.templates)
     const appendTemplates = useTemplatesStore((state) => state.appendTemplates)
     const [serverError, setServerError] = useState('')
+    const retryOnce = useRef(false)
     const [nothingFound, setNothingFound] = useState(false)
     const [loading, setLoading] = useState(false)
     const [loadMoreRef, inView] = useInView()
@@ -116,6 +117,16 @@ export const GridView = memo(function GridView() {
     }, [templates?.length, searchParamsRaw])
 
     useEffect(() => {
+        // If there's a server error, retry the request
+        // This is temporary until we upgrade the bckend and add
+        // a tool like react query to handle this automatically
+        if (!retryOnce.current && serverError.length) {
+            retryOnce.current = true
+            fetchTemplates()
+        }
+    }, [serverError, fetchTemplates])
+
+    useEffect(() => {
         // This will check the URL for a pattern type and set that and remove it
         // TODO: possibly refactor this if we exapnd it to support layouts
         if (!open || !taxonomies?.patternType?.length) return
@@ -162,7 +173,7 @@ export const GridView = memo(function GridView() {
         nextPage.current && inView && fetchTemplates()
     }, [inView, fetchTemplates, templates])
 
-    if (serverError.length) {
+    if (serverError.length && retryOnce.current) {
         return (
             <div className="text-left">
                 <h2 className="text-left">{__('Server error', 'extendify')}</h2>
@@ -173,7 +184,10 @@ export const GridView = memo(function GridView() {
                 </code>
                 <Button
                     isTertiary
-                    onClick={() => resetTemplates() && fetchTemplates()}>
+                    onClick={() => {
+                        retryOnce.current = false
+                        fetchTemplates()
+                    }}>
                     {__('Press here to reload')}
                 </Button>
             </div>

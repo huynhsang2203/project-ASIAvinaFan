@@ -38,7 +38,7 @@ export const ImportCounter = memo(function ImportCounter() {
 
     return (
         // tabIndex for group focus animations
-        <div tabIndex="0" className="group relative">
+        <div tabIndex="0" className="group relative mb-5">
             <a
                 target="_blank"
                 ref={buttonRef}

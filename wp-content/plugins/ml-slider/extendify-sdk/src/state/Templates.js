@@ -6,7 +6,7 @@ import { useUserStore } from './User'
 
 const defaultCategoryForType = (tax) =>
     tax === 'siteType'
-        ? { slug: '', title: 'Unknown' }
+        ? { slug: '', title: 'Not set' }
         : { slug: '', title: 'Featured' }
 
 export const useTemplatesStore = create(
