@@ -756,7 +756,8 @@
                     </div>
 
                     <div class="col mb-20">
-                        <a class="topic d-flex d-lg-block" href="http://localhost/project-ASIAvinaFans/customer-servicce/">
+                        <a class="topic d-flex d-lg-block"
+                            href="http://localhost/project-ASIAvinaFans/customer-servicce/">
                             <div class="thumbnail">
                                 <img src="https://quatvietnam.com.vn/wp-content/themes/asiavina/assets/images/customer.png"
                                     alt="Customer service">
@@ -784,7 +785,7 @@
                     </div>
 
                     <div class="col mb-20">
-                        <a class="topic d-flex d-lg-block" href="https://quatvietnam.com.vn/vi/about-us-vi/">
+                        <a class="topic d-flex d-lg-block" href="http://localhost/project-ASIAvinaFans/about-us/">
                             <div class="thumbnail">
                                 <img src="https://quatvietnam.com.vn/wp-content/themes/asiavina/assets/images/about-us.png"
                                     alt="About us">
@@ -798,7 +799,7 @@
                     </div>
 
                     <div class="col mb-20">
-                        <a class="topic d-flex d-lg-block" href="http://localhost/project-ASIAvinaFans/about-us/">
+                        <a class="topic d-flex d-lg-block" href="http://localhost/project-ASIAvinaFans/contact-us/">
                             <div class="thumbnail">
                                 <img src="https://quatvietnam.com.vn/wp-content/themes/asiavina/assets/images/contact.png"
                                     alt="Contact us">
@@ -890,7 +891,7 @@
     </script>
 </div>
 
-<?php get_footer( ); ?>
+<?php get_footer();?>
 
 <div id="search-form">
     <div class="container">
